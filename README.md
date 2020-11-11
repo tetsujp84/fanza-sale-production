@@ -12,7 +12,10 @@ AWS Lambdaで定期実行してます
 
 ## 動かすためには
 - FANZA API利用のためDMMアフィリエイトに登録する
-- SpreadSheetへの書き込みのためOAuthの設定をする
+- SpreadSheetへの書き込みのための設定をする
+    - SpreadSheetの利用のため以下のファイルを取得しディレクトリに置いておく
+        - credentials.json
+        - token.json
     - 参考 https://medium.com/veltra-engineering/how-to-use-google-sheets-api-with-golang-9e50ee9e0abc
 - SpreadSheetを作成しシートIDを取得しておく
 - 定期実行のためAWS Lambdaのセットアップをする
